@@ -1,0 +1,136 @@
+cell_types:
+  Normal Epithelial cells:
+    - ASCT2
+    - Keratin17
+    - CD227
+    - E-cadherin
+    - Pan-Cytokeratin
+    - b-catenin1
+    - Cytokeratin6
+    - Keratin18
+    - Keratin19
+    - Keratin7
+    - pNRF2
+    - Keratin 14
+    - Keratin5
+    - tp63
+    - ER
+  Tumor cells:
+    - E-cadherin
+    - Pan-Cytokeratin
+    - Glut1
+    - Keratin17
+  Proliferating Tumor cells:
+    - BAK
+    - HER2
+    - Dnmt1
+    - p53
+    - LaminB1
+    - Ki67
+    - PCNA
+    - CPT1A
+    - Glut1
+    - H2AX
+    - CD31
+  Myoepithelial cells:
+    - ASCT2
+    - Keratin17
+    - tp63
+    - CollagenIV
+    - SMA
+    - Podoplanin
+  Granulocytes:
+    - CD15
+    - CD66b
+    - MMP9
+    - HIF1A
+    - G6PD
+    - CD11b
+    - H2AX
+  Telocytes:
+    - CD31
+    - ERG
+    - CD34
+  Endothelial cells:
+    - CD31
+    - ERG
+    - CD34
+    - Vimentin
+    - CollagenIV
+    - SMA
+  M2 Macrophages:
+    - CD14
+    - CD163
+    - CD68
+    - PARP
+  M1 Macrophages:
+    - PARP
+    - HLA-DR
+    - CD11b
+  Fibroblasts:
+    - FAP
+  B cells:
+    - CD20
+    - PARP
+    - CD45
+    - HLA-A
+    - HLA-DR
+    - PDL1
+    - LaminB1
+  Cytotoxic T cells:
+    - CD3e
+    - PD1
+    - CD4
+    - CD45
+    - CD45RO
+    - S100A4
+    - HLA-A
+    - CD44
+    - CD8
+    - LaminB1
+  Tregs:
+    - CD3e
+    - PD1
+    - CD4
+    - CD45
+    - CD45RO
+    - S100A4
+    - HLA-A
+    - HLA-DR
+    - CD44
+    - PDL1
+    - FoxP3
+    - FAP
+    - LaminB1
+  Helper T cells:
+    - CD163
+    - CD3e
+    - PD1
+    - CD4
+    - CD45
+    - CD45RO
+    - S100A4
+    - HLA-A
+    - HLA-DR
+    - CD44
+    - FAP
+    - LaminB1
+
+hierarchy:
+  epithelial_cells:
+  - Normal Epithelial cells
+  - Myoepithelial cells
+  endothelial_cells:
+  - Endothelial cells
+  immune cells:
+    non-lymphocytes:
+      - M2 Macrophages
+      - M1 Macrophages
+    lymphocytes:
+      - B cells
+      - Cytotoxic T cells
+      - Helper T cells
+      - Tregs
+
+
+
