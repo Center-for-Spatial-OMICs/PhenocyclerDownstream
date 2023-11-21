@@ -40,21 +40,17 @@ cell_types:
     - SMA
     - Podoplanin
   Granulocytes:
-    - CD15
     - CD66b
     - MMP9
     - HIF1A
-    - G6PD
     - CD11b
     - H2AX
   Telocytes:
     - CD31
     - ERG
-    - CD34
   Endothelial cells:
     - CD31
     - ERG
-    - CD34
     - Vimentin
     - CollagenIV
     - SMA
